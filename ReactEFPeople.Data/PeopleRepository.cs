@@ -61,7 +61,7 @@ namespace ReactEFPeople.Data
                 {
                     return;
                 }
-                ids.ForEach(id => ctx.People.Remove(ctx.People.FirstOrDefault(p => p.Id == id)));
+                ids.ForEach(id => ctx.Database.ExecuteSqlInterpolated($"DELETE FROM People WHERE Id = {id}"));
                 ctx.SaveChanges();
             }
         }
