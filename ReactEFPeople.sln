@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactEFPeople.Web", "ReactEFPeople.Web\ReactEFPeople.Web.csproj", "{C704E59E-B2E5-4AA8-8B25-03A9676FF913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactEFPeople.Data", "ReactEFPeople.Data\ReactEFPeople.Data.csproj", "{A036AEC3-AD01-4DEA-AD75-A625C55576E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C704E59E-B2E5-4AA8-8B25-03A9676FF913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C704E59E-B2E5-4AA8-8B25-03A9676FF913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C704E59E-B2E5-4AA8-8B25-03A9676FF913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C704E59E-B2E5-4AA8-8B25-03A9676FF913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A036AEC3-AD01-4DEA-AD75-A625C55576E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A036AEC3-AD01-4DEA-AD75-A625C55576E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A036AEC3-AD01-4DEA-AD75-A625C55576E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A036AEC3-AD01-4DEA-AD75-A625C55576E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53331A6B-1CFC-47FE-AA74-8F736E79C30B}
+	EndGlobalSection
+EndGlobal
